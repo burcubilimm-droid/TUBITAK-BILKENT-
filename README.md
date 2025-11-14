@@ -1,2 +1,112 @@
 # TUBITAK-BILKENT-
 PROJE
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TÜBİTAK 1001 Projesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header-left">
+            <img src="img/university-logo.png" class="logo">
+        </div>
+
+        <div class="header-title">
+            <h1>Türkiye Cumhuriyeti’nin İlk Yüz Yılına Güvenlik Kavramı Penceresinden Bakmak</h1>
+        </div>
+
+        <div class="header-right">
+            <img src="img/tubitak-logo.png" class="logo">
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a class="active" href="#research">Research</a>
+        <a href="#team">Meet the Team</a>
+        <a href="#blog">Blog</a>
+        <a href="#events">News & Events</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <!-- RESEARCH -->
+        <section id="research">
+            <h2>Research</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat.
+            </p>
+        </section>
+
+        <!-- MEET THE TEAM -->
+        <section id="team">
+            <h2>Meet the Team</h2>
+            <div class="team-container">
+
+                <div class="team-card">
+                    <div class="avatar"></div>
+                    <h3>İsim Soyisim</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="avatar"></div>
+                    <h3>İsim Soyisim</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="avatar"></div>
+                    <h3>İsim Soyisim</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BLOG -->
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="btn-red">Send</button>
+        </section>
+
+        <!-- NEWS AND EVENTS -->
+        <section id="events">
+            <h2>News and Events</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="btn-blue">Contact</button>
+        </section>
+
+        <!-- PUBLICATIONS -->
+        <section id="publications">
+            <h2>Publications</h2>
+            <p>Yakında eklenecek.</p>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section id="contact" class="contact-form">
+            <h2>Contact</h2>
+
+            <form>
+                <div class="form-row">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <textarea placeholder="Message"></textarea>
+                <button class="btn-red send-btn">Send</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
