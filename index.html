@@ -110,3 +110,24 @@
 
 </body>
 </html>
+/* Make header taller */
+.header {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;        /* center vertically */
+    text-align: center;
+}
+
+/* Prevent title from breaking into multiple lines */
+.header-title h1 {
+    white-space: nowrap;        /* the key line */
+    font-size: 2rem;            /* adjust size */
+    line-height: 1.2;
+}
+
+/* Optional: widen the header layout */
+.header-left,
+.header-right {
+    width: 20%; /* gives breathing space */
+}
